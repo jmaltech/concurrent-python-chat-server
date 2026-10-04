@@ -2,6 +2,10 @@
 
 A real-time client-server chat application built with Python sockets and multithreading. The project allows multiple clients to connect to a central server, choose a nickname, and exchange messages in real time.
 
+## Demo
+
+![Concurrent Python Chat Server demo](chat-demo.png)
+
 ## Features
 
 - Multiple clients can connect simultaneously
@@ -34,6 +38,7 @@ The client uses two threads:
 ```text
 concurrent-python-chat-server/
 ├── README.md
+├── chat-demo.png
 ├── server.py
 └── client.py
 ```
